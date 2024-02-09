@@ -1,0 +1,19 @@
+
+<div class="row">
+    <div class="col-6">
+        <div class="center">
+            <button type="button" (click)="yesClicked()" class="btn yes" [ngStyle]="{'width' :getWidth1() + '%'}">
+                {{text1}}
+            </button>
+        </div>
+        
+    </div>
+    <div class="col-6">
+        <div class="center">
+            <button type="button" (click)="noClicked()" class="btn no" [ngStyle]="{'width': getWidth2() + '%'}">
+                {{text2}}
+            </button>
+        </div>
+        
+    </div>
+</div>

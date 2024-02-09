@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'valentineApp';
+  status;
+
+  onYes(item: string){
+      this.status = item
+  }
+  
 }

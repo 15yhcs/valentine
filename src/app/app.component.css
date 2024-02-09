@@ -1,0 +1,11 @@
+
+.container-fluid{
+    height: 100%;
+    background-image: url(/assets/img/bg.avif);
+    background-size: cover;
+}
+
+.love{
+    text-align: center;
+    justify-content: center;
+}

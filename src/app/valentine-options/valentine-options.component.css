@@ -1,0 +1,21 @@
+button.yes{
+    box-shadow: 5px 5px 5px 5px;
+    height: 100%;
+    width: 50%;
+    color: aqua;
+    font-family: 'cute';
+    font-size: 50px;
+}
+
+button.no{
+    box-shadow: 5px 5px 5px 5px;
+    height: 100%;
+    width: 50%;
+    color: red;
+    font-family: 'cute';
+    font-size: 50px;
+}
+
+.center{
+    text-align: center;
+}
